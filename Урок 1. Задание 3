@@ -1,0 +1,8 @@
+ 3. Узнайте у пользователя число n. Найдите сумму чисел n + nn + nnn.
+# Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369.
+
+user_n = input('Введите любое число от 1 до 9: ')
+user_nn = user_n + user_n
+user_nnn = user_n + user_n + user_n
+
+print('Сумма вашего числа n + nn + nnn равна: ', int(user_n) + int(user_nn) + int(user_nnn))
